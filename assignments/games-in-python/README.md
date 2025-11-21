@@ -1,19 +1,44 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objetivo
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts. This assignment focuses on practicing string manipulation, loops, conditionals, and random selection.
 
-## � What You'll Build
+## 📝 Tarefas
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Random Word Selection
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Write a function to randomly select a word from a predefined list of words.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Contain a predefined list of at least 10 words.
+- Randomly select one word from the list.
+- Ensure the selected word is hidden from the player initially.
+
+### 🛠️ Letter Guessing Logic
+
+#### Description
+Implement the logic to accept letter guesses from the player and update the game state accordingly.
+
+#### Requirements
+Completed program should:
+
+- Accept user input for letter guesses.
+- Display the current progress of the word in `_ _ _` format.
+- Track and display the number of incorrect guesses remaining.
+- Validate input to ensure only single letters are accepted.
+
+### 🛠️ Game End Conditions
+
+#### Description
+Handle the end-of-game scenarios, including winning and losing conditions.
+
+#### Requirements
+Completed program should:
+
+- End the game when the word is fully guessed or the player runs out of attempts.
+- Display a win message if the player guesses the word.
+- Display a lose message if the player exhausts all attempts without guessing the word.
